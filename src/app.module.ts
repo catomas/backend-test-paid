@@ -2,6 +2,10 @@ import { Module } from "@nestjs/common";
 import { ConfigModule } from "@nestjs/config";
 import { TypeOrmModule } from "@nestjs/typeorm";
 import { ProductModule } from "./products/product.module";
+import { TransactionModule } from "./transactions/transaction.module";
+import { SeedController } from "./seed/seed.controller";
+import { SeedService } from "./seed/seed.service";
+import { UserModule } from "./users/users.module";
 
 @Module({
   imports: [
@@ -17,6 +21,10 @@ import { ProductModule } from "./products/product.module";
       synchronize: true,
     }),
     ProductModule,
+    UserModule,
+    TransactionModule,
   ],
+  controllers: [SeedController],
+  providers: [SeedService],
 })
 export class AppModule {}

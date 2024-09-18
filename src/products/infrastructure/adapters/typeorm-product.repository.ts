@@ -46,4 +46,12 @@ export class TypeOrmProductRepository implements ProductRepository {
   async delete(id: string): Promise<void> {
     await this.repository.delete(id);
   }
+
+  async update(product: Product): Promise<void> {
+    await this.repository.update(product.id, product);
+  }
+
+  async clear(): Promise<void> {
+    await this.repository.delete({});
+  }
 }

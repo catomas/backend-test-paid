@@ -25,5 +25,6 @@ import { FindAllProductsUseCase } from "./application/find-all-products.use-case
     UpdateProductUseCase,
     DeleteProductUseCase,
   ],
+  exports: ["ProductRepository"],
 })
 export class ProductModule {}

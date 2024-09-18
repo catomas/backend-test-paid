@@ -1,4 +1,3 @@
-// src/products/infrastructure/product.controller.ts
 import {
   Controller,
   Get,
