@@ -10,6 +10,7 @@ async function bootstrap() {
     origin: [
       "http://localhost:3001",
       "https://test-paid-e0ea7a7b42f0.herokuapp.com",
+      "https://frontend-test-paid.vercel.app",
     ], // Allow requests from this origin
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
