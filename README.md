@@ -38,8 +38,8 @@ Make sure you have the following installed on your local machine:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   https://github.com/catomas/backend-test-paid.git
+   cd backend-test-paid
    ```
 
 2. Install dependencies:
@@ -75,18 +75,3 @@ Make sure you have the following installed on your local machine:
    ```
 
 3. The application will be running at `http://localhost:3000`.
-
-### Environment Variables
-
-Create a `.env` file in the root directory and add the following variables:
-
-```properties
-DB_HOST=your_db_host
-DB_PORT=your_db_port
-DB_USERNAME=your_db_username
-DB_PASSWORD=your_db_password
-DB_NAME=your_db_name
-WOMPI_BASE_URL=https://api-sandbox.co.uat.wompi.dev/v1
-WOMPI_PUBLIC_KEY=your_wompi_public_key
-WOMPI_SECRET_INTEGRITY=your_wompi_secret_integrity
-```
