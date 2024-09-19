@@ -75,3 +75,11 @@ Make sure you have the following installed on your local machine:
    ```
 
 3. The application will be running at `http://localhost:3000`.
+
+### Postman Collection
+
+You can find the Postman collection for this project [https://documenter.getpostman.com/view/6633944/2sAXqs5gm6](https://documenter.getpostman.com/view/6633944/2sAXqs5gm6).
+
+### Deployment
+
+The application is deployed on Heroku and can be accessed [https://test-paid-e0ea7a7b42f0.herokuapp.com](https://test-paid-e0ea7a7b42f0.herokuapp.com).

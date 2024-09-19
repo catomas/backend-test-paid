@@ -8,7 +8,6 @@ import { CreateTransactionUseCase } from "src/transactions/application/create-tr
 import { FindTransactionByIdUseCase } from "src/transactions/application/find-transaction-by-id.use-case";
 import { GetTransactionStatusUseCase } from "src/transactions/application/get-transaction-status.use-case";
 import { UpdateTransactionStatusUseCase } from "src/transactions/application/update-transaction-status.use-case";
-import { User } from "src/users/domain/user.entity";
 
 @Controller("transactions")
 export class TransactionController {
