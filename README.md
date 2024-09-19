@@ -14,8 +14,8 @@
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
-- [Environment Variables](#environment-variables)
-- [License](#license)
+- [Postman Collection](#postman-collection)
+- [Deployment](#deployment)
 
 ## About
 
